@@ -8,13 +8,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   // Redundant variable
-  var _counter = 0;
-  var _anotherCounter = 0;
+  var counter = 0;
+  var anotherCounter = 0;
 
   _incrementCounter() {
     // Unused method
     setState(() {
-      _counter++;
+      counter++;
     });
   }
 
@@ -36,12 +36,12 @@ class _MyHomePageState extends State<MyHomePage> {
             // Redundant widget creation
             text,
             Text(
-              '$_counter',
+              '$counter',
               style: Theme.of(context).textTheme.headline4,
             ),
             // Commented code that was redundant
             // Text(
-            //   '$_anotherCounter',
+            //   '$anotherCounter',
             //   style: Theme.of(context).textTheme.headline4,
             // ),
           ],
