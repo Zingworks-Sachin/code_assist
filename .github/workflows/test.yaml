@@ -21,7 +21,7 @@ jobs:
           with:
             repository: appstute/CodeAssist
             token: ${{ secrets.REPO_PAT_TOKEN }}
-            ref: sachin_flutter_assist
+            ref: main
             path: ./second_repo/CodeAssist
             fetch-depth: 0
 
